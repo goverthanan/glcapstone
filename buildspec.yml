@@ -13,9 +13,9 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t glcapstoneairpg .
-      - docker tag glcapstoneairpg:latest 223998089108.dkr.ecr.us-east-1.amazonaws.com/glcapstoneairpg:latest     
+      - docker tag glcapstoneairpg:latest 737600544206.dkr.ecr.us-east-1.amazonaws.com/glcapstoneairpg:latest     
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 223998089108.dkr.ecr.us-east-1.amazonaws.com/glcapstoneairpg:latest
+      - docker push 737600544206.dkr.ecr.us-east-1.amazonaws.com/glcapstoneairpg:latest
